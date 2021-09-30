@@ -19,11 +19,12 @@
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="css/owl.theme.default.css" type="text/css">
-    
+
   
 
     <!-- This styles needs for demo -->
     <link rel="stylesheet" href="preview/lmpixels-demo-panel.css" type="text/css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css">
     <!-- /This styles needs for demo -->
 
     <script src="js/jquery-2.1.3.min.js"></script>
@@ -53,7 +54,7 @@
       <!-- Header -->
       <header id="site_header" class="header">
         <div class="my-photo">
-          <img src="images/my_avatar.jpeg" alt="image">
+          <img src="images/hung_2.jpg" alt="image">
           <div class="mask"></div>
         </div>
 
@@ -85,13 +86,16 @@
                 <a class="pt-trigger" href="#resume" data-animation="59" data-goto="2">Resume</a>
               </li>
               <li>
-                <a class="pt-trigger" href="#portfolio" data-animation="60" data-goto="3">Portfolio</a>
+                <a class="pt-trigger" href="#pulication" data-animation="60" data-goto="3">Pulications</a>
               </li>
               <li>
-                <a class="pt-trigger" href="#blog" data-animation="61" data-goto="4">Blog</a>
+                <a class="pt-trigger" href="#portfolio" data-animation="61" data-goto="4">Portfolio</a>
               </li>
+<!--              <li>-->
+<!--                <a class="pt-trigger" href="#blog" data-animation="61" data-goto="5">Blog</a>-->
+<!--              </li>-->
               <li>
-                <a class="pt-trigger" href="#contact" data-animation="58" data-goto="5">Contact</a>
+                <a class="pt-trigger" href="#contact" data-animation="58" data-goto="6">Contact</a>
               </li>
             </ul>
             <!-- /Main menu -->
@@ -124,7 +128,7 @@
                     <img src="images/photo_small.jpg" alt="image">
                   </div>
                 </div>
-                <div class="col-sm-6 col-md-6 subpage-block">
+                <div class="col-sm-12 col-md-12 subpage-block">
                   <div class="general-info">
                     <h3>A data scientist in Computer Vision</h3>
                     <p>Dr. Truong is currently a postdoctoral researcher at Sejong University (Korea). He obtained the Ph.D. degree in Computer Science (CS) from Sejong University (Korea) in 2021, the M.Sc. degree and the B.Sc. degree in CS from the University of Science, VNU-HCMUS (Vietnam), in 2012 and 2009, respectively.</p>
@@ -132,52 +136,35 @@
                   </div>
                 </div>
 
-                <!--<div class="col-sm-4 col-md-4 subpage-block">
-                  <div class="block end">
-                    <ul class="info-list">
-                      <li><span class="title">Name</span><span class="value">Alex Smith</span></li>
-                      <li><span class="title">Age</span><span class="value">29</span></li>
-                      <li><span class="title">Address</span><span class="value">88 Street - State, Town</span></li>
-                      <li><span class="title">e-mail</span><span class="value"><a href="mailto:email@addres.com">email@addres.com</a></span></li>
-                      <li><span class="title">Phone</span><span class="value">+0123 123 456 789</span></li>
-                      <li><span class="title">Freelance</span><span class="value available">Available</span></li>
-                    </ul>
-                  </div>
-                </div>-->
+                <div class="col-sm-6 col-md-6 subpage-block block-title">
+                  <h3>Research Fields</h3>
+                  <h4>Machine Learning</h4>
+                  <ul>
+                    <li>Traditional Techniques (LBP, 2D-LDA, Manifold...)</li>
+                    <li>Deep Learning</li>
+                    <li>Data Clustering (K-means, Kohonen networks)</li>
+                  </ul>
 
-                <!--<div class="col-sm-6 col-md-6 subpage-block">-->
-                <div class="col-sm-6 subpage-block">
-                  <div class="block-title">
-                    <h3>My vision</h3>
-                  </div>
-                  <div class="testimonials owl-carousel">
+                  <h4>Image Analysis</h4>
+                  <ul>
+                    <li>Symmetry Detection (Radon Transform)</li>
+                    <li>Image Segmentation</li>
+                  </ul>
+                </div>
 
-                    <!-- Testimonial 1 -->
-                    <div class="testimonial-item">
-                      <!-- Testimonial Content -->
-                      <div class="testimonial-content">
-                        <div class="testimonial-text">
-                          <p>Computer Science is changing the world in creative, interactive, and adaptive approaches. We together will contribute great achievements to it.</p>
-                        </div>
-                      </div>            
-                      <!-- /Testimonial Content -->  
-                      <!-- Testimonial Author -->
-                      <div class="testimonial-credits">
-                        <!-- Picture -->
-                        <div class="testimonial-picture">
-                          <img src="images/testimonials/hung.jpeg" alt="">
-                        </div>              
-                        <!-- /Picture -->
-                        <!-- Testimonial author information -->
-                        <div class="testimonial-author-info">
-                          <p class="testimonial-author">Hung P. Truong</p>
-                          <p class="testimonial-firm">Sejong University</p>
-                        </div>
-                      </div>
-                      <!-- /Testimonial author information -->               
-                    </div>
-                    <!-- End of Testimonial 1 -->
-                  </div>
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <h3 style="color:white">.</h3>
+                  <h4>Medical/ Health Sector</h4>
+                  <ul>
+                    <li>Facial Paralysis Evaluation (Asymmetry Measurement)</li>
+                  </ul>
+
+                  <h4>Biometrics</h4>
+                  <ul>
+                    <li>Facial Landmarks Detection (DB-ASM)</li>
+                    <li>ID Authentication for secured system (Keberos)</li>
+                    <li>Face/ Ear/ Fingerprint Recognition (Deep Features, Handcrafted Features)</li>
+                  </ul>
                 </div>
               </div>
 
@@ -189,16 +176,16 @@
               <div id="slider">
                 <div class="owl-carousel owl-theme">
 
-                  <div class="col-sm-6 subpage-block service-block service-info">
+                  <div class="subpage-block service-block service-info">
                     <a href="http://home.sejong.ac.kr/~ykim/2.html">
                       <img src="images/intro/sejong.png" alt="Postdoctoral researcher">
                     </a>
                     <h4>Postdoctoral researcher</h4>
                     <p>Working at HCI lab</p>
-                    <p>Sept. 2021 ~ Feb. 2022</p>
+                    <p>Sept. 2021 ~ Current</p>
                   </div>
 
-                  <div class="col-sm-6 subpage-block service-block service-info">
+                  <div class="subpage-block service-block service-info">
                     <a href="http://www.dgcv.nii.ac.jp/">
                       <img src="images/intro/nii_2.png" alt="Internship">
                     </a>
@@ -207,7 +194,7 @@
                     <p>Aug. 2016 ~ Dec. 2016</p>
                   </div>
 
-                  <div class="col-sm-6 subpage-block service-block service-info">
+                  <div class="subpage-block service-block service-info">
                     <a href="https://www.hcmus.edu.vn/">
                       <img src="images/intro/hcmus.png" alt="Lecturer">
                     </a>
@@ -216,7 +203,7 @@
                     <p>2010 ~ Present</p>
                   </div>
 
-                  <div class="col-sm-6 subpage-block service-block service-info">
+                  <div class="subpage-block service-block service-info">
                     <a href="https://uit.edu.vn/">
                       <img src="images/intro/uit.png" alt="Management">
                     </a>
@@ -225,7 +212,7 @@
                     <p>2009 ~ 2010</p>
                   </div>
 
-                  <div class="col-sm-6 subpage-block service-block service-info">
+                  <div class="subpage-block service-block service-info">
                     <a href="http://ptnk.edu.vn/">
                       <img src="images/intro/ptnk.png" alt="IT Teacher">
                     </a>
@@ -235,74 +222,6 @@
                   </div>
                 </div>
               </div>
-
-              <!--
-              <div class="row">
-                <div class="col-sm-6 col-md-3 subpage-block">
-                  <div class="service-block">
-                    <div class="service-info">
-                      <a href="http://home.sejong.ac.kr/~ykim/2.html">
-                        <img src="images/intro/sejong.png" alt="Postdoctoral researcher">
-                      </a>
-                      <h4>Postdoctoral researcher</h4>
-                      <p>Working at HCI lab</p>
-                      <p>Sept. 2021 ~ Feb. 2022</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 subpage-block">
-                  <div class="service-block"> 
-                    <div class="service-info">
-                      <a href="http://www.dgcv.nii.ac.jp/">
-                        <img src="images/intro/nii_2.png" alt="Internship">
-                      </a>
-                      <h4>Internship</h4>
-                      <p>Worked at Sugimoto lab</p>
-                      <p>Aug. 2016 ~ Dec. 2016</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 subpage-block">
-                  <div class="service-block"> 
-                    <div class="service-info">
-                      <a href="https://www.hcmus.edu.vn/">
-                        <img src="images/intro/hcmus.png" alt="Lecturer">
-                      </a>
-                      <h4>Lecturer</h4>
-                      <p>Working at FIT-HCMUS</p>
-                      <p>2010 ~ Present</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 subpage-block">
-                  <div class="service-block"> 
-                    <div class="service-info">
-                      <a href="https://uit.edu.vn/">
-                        <img src="images/intro/uit.png" alt="Management">
-                      </a>
-                      <h4>Management</h4>
-                      <p>Vice President at Youth Union</p>
-                      <p>2009 ~ 2010</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 subpage-block">
-                  <div class="service-block">
-                    <div class="service-info">
-                      <a href="http://ptnk.edu.vn/">
-                        <img src="images/intro/ptnk.png" alt="IT Teacher">
-                      </a>
-                      <h4>Teacher</h4>
-                      <p>Working at IT department</p>
-                      <p>2011 ~ 2016</p>
-                    </div>
-                  </div>
-                </div>
-              </div>-->
               <!-- End of Services block -->
 
               <!-- Clients block -->
@@ -310,82 +229,41 @@
                 <h3>Visted countries</h3>
               </div>
 
-              <div id="slider">
+              <div id="slider2">
                 <div class="owl-carousel owl-theme">
-                  <div class="col-sm-6">
-                    <a href="https://en.wikipedia.org/wiki/Flag_of_Singapore" target="_blank"><img src="images/countries/sing.png" alt="image">Singapore</a>
+                  <div class="service-block">
+                    <a class="service-title" href="https://en.wikipedia.org/wiki/Vietnam" target="_blank"><img src="images/countries/vietnam.png" alt="image" >Vietnam</a>
                   </div>
 
-                  <div class="col-sm-6">
-                    <a href="https://en.wikipedia.org/wiki/Flag_of_Thailand" target="_blank"><img src="images/countries/thai.png" alt="image">Thailand</a>
+                  <div class="service-block">
+                    <a class="service-title" href="https://en.wikipedia.org/wiki/Flag_of_Singapore" target="_blank"><img src="images/countries/sing.png" alt="image">Singapore</a>
                   </div>
 
-                  <div class="col-sm-6">
-                    <a href="https://en.wikipedia.org/wiki/Flag_of_Japan" target="_blank"><img src="images/countries/japan.png" alt="image">Japan</a>
+                  <div class="service-block">
+                    <a class="service-title" href="https://en.wikipedia.org/wiki/Flag_of_Thailand" target="_blank"><img src="images/countries/thai.png" alt="image">Thailand</a>
                   </div>
 
-                  <div class="col-sm-6">
-                    <a href="https://en.wikipedia.org/wiki/Flag_of_South_Korea" target="_blank"><img src="images/countries/korea.png" alt="image">South Korea</a>
+                  <div class="service-block">
+                    <a class="service-title" href="https://en.wikipedia.org/wiki/Flag_of_Japan" target="_blank"><img src="images/countries/japan.png" alt="image">Japan</a>
                   </div>
 
-                  <div class="col-sm-6">
-                    <a href="https://en.wikipedia.org/wiki/Flag_of_France" target="_blank"><img src="images/countries/france.png" alt="image">France</a>
+                  <div class="service-block">
+                    <a class="service-title" href="https://en.wikipedia.org/wiki/Flag_of_South_Korea" target="_blank"><img src="images/countries/korea.png" alt="image">South Korea</a>
                   </div>
 
-                  <div class="col-sm-6">
-                    <a href="https://en.wikipedia.org/wiki/Flag_of_Italy" target="_blank"><img src="images/countries/italy.png" alt="image">Italy</a>
+                  <div class="service-block">
+                    <a class="service-title" href="https://en.wikipedia.org/wiki/Flag_of_France" target="_blank"><img src="images/countries/france.png" alt="image">France</a>
                   </div>
 
-                  <div class="col-sm-6">
-                    <a href="https://en.wikipedia.org/wiki/Flag_of_Spain" target="_blank"><img src="images/countries/spain.png" alt="image">Spain</a>
+                  <div class="service-block">
+                    <a class="service-title" href="https://en.wikipedia.org/wiki/Flag_of_Italy" target="_blank"><img src="images/countries/italy.png" alt="image">Italy</a>
+                  </div>
+
+                  <div class="service-block">
+                    <a class="service-title" href="https://en.wikipedia.org/wiki/Flag_of_Spain" target="_blank"><img src="images/countries/spain.png" alt="image">Spain</a>
                   </div>
                 </div>
               </div>
-
-
-              <!--<div class="row">
-                <div class="col-sm-4 col-md-2 subpage-block">
-                  <div class="client_block">
-                    <a href="https://en.wikipedia.org/wiki/Flag_of_Singapore" target="_blank"><img src="images/countries/sing.png" alt="image"></a>
-                  </div>
-                </div>
-
-                <div class="col-sm-4 col-md-2 subpage-block">
-                  <div class="client_block">
-                    <a href="https://en.wikipedia.org/wiki/Flag_of_Thailand" target="_blank"><img src="images/countries/thai.png" alt="image"></a>
-                  </div>
-                </div>
-
-                <div class="col-sm-4 col-md-2 subpage-block">
-                  <div class="client_block">
-                    <a href="https://en.wikipedia.org/wiki/Flag_of_Japan" target="_blank"><img src="images/countries/japan.png" alt="image"></a>
-                  </div>
-                </div>
-
-                <div class="col-sm-4 col-md-2 subpage-block">
-                  <div class="client_block">
-                    <a href="https://en.wikipedia.org/wiki/Flag_of_South_Korea" target="_blank"><img src="images/countries/korea.png" alt="image"></a>
-                  </div>
-                </div>
-
-                <div class="col-sm-4 col-md-2 subpage-block">
-                  <div class="client_block">
-                    <a href="https://en.wikipedia.org/wiki/Flag_of_France" target="_blank"><img src="images/countries/france.png" alt="image"></a>
-                  </div>
-                </div>
-
-                <div class="col-sm-4 col-md-2 subpage-block">
-                  <div class="client_block">
-                    <a href="https://en.wikipedia.org/wiki/Flag_of_Italy" target="_blank"><img src="images/countries/italy.png" alt="image"></a>
-                  </div>
-                </div>
-
-                <div class="col-sm-4 col-md-2 subpage-block">
-                  <div class="client_block">
-                    <a href="https://en.wikipedia.org/wiki/Flag_of_Spain" target="_blank"><img src="images/countries/spain.png" alt="image"></a>
-                  </div>
-                </div>
-              </div>-->
               <!-- End of Clients block -->
 
               <!-- Fun facts block -->
@@ -434,7 +312,7 @@
             <section class="pt-page pt-page-2" data-id="resume">
               <div class="section-title-block">
                 <h2 class="section-title">Resume</h2>
-                <h5 class="section-description">6 Years of Experience</h5>
+                <h5 class="section-description">12 Working Years</h5>
               </div>
 
               <div class="row">
@@ -445,24 +323,27 @@
                   <div class="timeline">
                     <!-- Single event -->
                     <div class="timeline-event te-primary">
-                      <h5 class="event-date">2010</h5>
-                      <h4 class="event-name">Specialization Course</h4>
-                      <span class="event-description">University of Studies</span>
-                      <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                      <h5 class="event-date">Mar. 2017 ~ Aug. 2021</h5>
+                      <h4 class="event-name">Ph.D. in Computer Science</h4>
+                      <span class="event-description">Sejong University, Korea</span>
+                      <p>Department: Computer Science and Engineering</p>
+                      <p>Dissertation: Advanced Local Appearance-based Facial Features Represenation</p>
                     </div>
                     <!-- Single event -->
                     <div class="timeline-event te-primary">
-                      <h5 class="event-date">2009</h5>
-                      <h4 class="event-name">Specialization Course</h4>
-                      <span class="event-description">University of Studies</span>
-                      <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                      <h5 class="event-date">Sep.2010 ~ Sep. 2012</h5>
+                      <h4 class="event-name">Master in Computer Science</h4>
+                      <span class="event-description">VNUHCM-University of Science</span>
+                      <p>Department: Computer Science</p>
+                      <p>Thesis: 2D-LDA scheme for Face Recognition</p>
                     </div>
                     <!-- Single event -->
                     <div class="timeline-event te-primary">
-                      <h5 class="event-date">2008</h5>
-                      <h4 class="event-name">Specialization Course</h4>
-                      <span class="event-description">University of Studies</span>
-                      <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                      <h5 class="event-date">Sep. 2005 ~ Sep. 2009</h5>
+                      <h4 class="event-name">Bachelor in Computer Science</h4>
+                      <span class="event-description">VNUHCM-University of Science</span>
+                      <p>Department: Computer Science</p>
+                      <p>Thesis: Face recognition with facial salient structure analysis</p>
                     </div>
                   </div>
                 </div>
@@ -551,13 +432,47 @@
               <div class="row">
                 <div class="col-sm-12 col-md-12">
                   <div class="download-cv-block">
-                    <a class="button" target="_blank" href="#">Download CV</a>
+                    <a class="button" target="_blank" href="files/Truong_resume.pdf">Download CV</a>
                   </div>
                 </div>
               </div>
             </section>
             <!-- End Resume Subpage -->
 
+            <!-- Publication Subpage -->
+            <section class="pt-page pt-page-2" data-id="publication">
+              <div class="section-title-block">
+                <h2 class="section-title">Publications</h2>
+                <h5 class="section-description">Progestious papers</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-12 col-md-12 subpage-block">
+                  <h3>Journal Articles</h3>
+                  <ol>
+                    <li><b>Truong, H.P.</b>, Nguyen, T.P., Kim, YG. (2021) Weighted statistical binary patterns for facial feature representation. Applied Intelligence (<b>IF = 5.086, Q1</b>), <a href="https://doi.org/10.1007/s10489-021-02477-1">DOI: 10.1007/s10489-021-02477-1</a>.</li>
+                    <li><b>Truong, H.P.</b>, Vo, TMD., Le, T. (2016) Face recognition based on LDA in manifold subspace, EAI. Endorsed Trans. on Context-aware Systems and Applications , <a href="http://dx.doi.org/10.4108/eai.2-5-2016.151209">DOI: 10.4108/eai.2-5-2016.151209</a>.</li>
+                    <li>Le, T.H., <b>Truong, H.P.</b>, Dang, K.D., Duong, D.A. (2011) Using Genetic Algorithms to Find Reliable Set of Coefficients for Face Recognition, the Information and Telecommunication Journal (Vietnam), 6(26), 124-133.</li>
+                  </ol>
+
+                  <h3>Conference Proceedings</h3>
+                  <ol>
+                    <li><b>Truong,H.P.</b>, Kim,YG. <a href="https://doi.org/10.1007/978-3-030-01449-0_24">Enhanced Line Local Binary Patterns (EL-LBP): An Efficient Image Representation for Face Recognition</a>, ACIVS (France),2018,pp.285-296 (<b>B ranked</b>).</li>
+                    <li><b>Truong,H.P.</b>, Le, Q.M., Nguyen, T.L., Kim, YG. <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07401427">Facial landmarks detection for evaluating facial paralysis using a modern active shape model</a>, in HCI Korea (Korea), 2018, pp. 412-415.</li>
+                    <li>Vo, TMD., <b>Truong,H.P.</b>, Le T.H. <a href="https://www.researchgate.net/publication/301345214_Discriminative_Semi-supervised_Learning_in_Manifold_Subspace_for_Face_Recognition">Discriminative semi-supervised learning in manifold subspace for face recognition</a>, EAI ICCASA (Vietnam), 2015, pp. 243-253.</li>
+                    <li>Ly, QT., <b>Truong,H.P.</b>, Le, HT. <a href="https://ieeexplore.ieee.org/document/7340892">Graph K-means with lost cluster approach for nonlinear manifold clustering</a>, ICMLC (China), 2015, pp. 25-30 (<b>C ranked</b>)</li>
+                    <li>Le, H.Q., <b>Truong,H.P.</b>, Van, T.H., Le, T.H. <a href="https://ieeexplore.ieee.org/document/7049892">A new pre-authentication protocol in Kerberos 5: biometric authentication</a>, RIVF (Vietnam), 2014, pp. 157-162.</li>
+                    <li>Le, DK.T., <b>Truong,H.P.</b>, Le, T.H. <a href="https://ieeexplore.ieee.org/document/7026207">Facial expression recognition using statistical subspace</a>, ICIP (France), 2014, pp. 5981-5985 (<b>B ranked</b>).</li>
+                    <li>Vo, D.M., <b>Truong,H.P.</b>, Le, T.H. <a href="https://www.academia.edu/6328903/Robust_facial_expression_recognition_using_Coefficient_of_Variation_Bag_of_features">Robust facial expression recognition using Coefficient of Variation Bag of features</a>, NICS (Vietnam), 2014, pp. 448-457.</li>
+                    <li>Le, T.H., <b>Truong,H.P.</b>, Do, HT.T., Vo, D.M. <a href="https://doi.org/10.1145/2542050.2542061">On approaching 2D-FPCA technique to improve image representation in frequency domain</a>, SoICT (Vietnam), 2013, pp. 172-180.</li>
+                    <li><b>Truong,H.P.</b>, Le, T.H. <a href="https://doi.org/10.1145/2350716.2350738">Fusion of bidirectional image matrices and 2D-LDA: an efficient approach for face recognition</a>, SoICT (Vietnam), 2012, pp. 142-148.</li>
+                    <li><b>Truong,H.P.</b>, <i>et al.</i> Quy trình đánh giá an ninh cho KDC trong hệ thống mạng triển khai giao thức Kerberos 5, hội nghị khoa học lần thứ 9 trường ĐH Khoa học Tự nhiên – ĐHQG HCM, 2014.</li>
+                  </ol>
+
+                </div>
+              </div>
+            </section>
+            <!-- End Publication Subpage -->
 
             <!-- Portfolio Subpage -->
             <section class="pt-page pt-page-3" data-id="portfolio">
@@ -935,21 +850,17 @@
                   <div class="block-title">
                     <h3>Get in Touch</h3>
                   </div>
-                  <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus.</p>
-                  <div class="contact-info-block">
-                    <div class="ci-icon">
-                      <i class="pe-7s-icon pe-7s-map-marker"></i>
-                    </div>
-                    <div class="ci-text">
-                      <h5>Los Angeles, USA</h5>
-                    </div>
-                  </div>
+                  <p>Please feel free to contact me.</p>
                   <div class="contact-info-block">
                     <div class="ci-icon">
                       <i class="pe-7s-icon pe-7s-mail"></i>
                     </div>
                     <div class="ci-text">
-                      <h5><a href="" class="" data-cfemail="">[email&#160;protected]</a></h5>
+                      <h5>tphung [at] sejong.ac.kr  (for work)</h5>
+                    </div>
+
+                    <div class="ci-text">
+                      <h5>truongphuochung [at] gmail.com  (for personal)</h5>
                     </div>
                   </div>
                   <div class="contact-info-block">
@@ -957,7 +868,8 @@
                       <i class="pe-7s-icon pe-7s-call"></i>
                     </div>
                     <div class="ci-text">
-                      <h5>+123 654 78900</h5>
+                      <h5>Korea: (+82) 010-7167-zero 3 two zero</h5>
+                      <h5>Vietnam: (+84) 0898-650-sáu tám năm</h5>
                     </div>
                   </div>
                   <div class="contact-info-block">
@@ -965,46 +877,50 @@
                       <i class="pe-7s-icon pe-7s-check"></i>
                     </div>
                     <div class="ci-text">
-                      <h5>Freelance Available</h5>
+                      <h5>Freelance Work Available</h5>
                     </div>
                   </div>
                 </div>
 
                 <div class="col-sm-6 col-md-6 subpage-block">
                   <div class="block-title">
-                    <h3>Contact Form</h3>
+                    <h3>Office</h3>
                   </div>
-                  <form id="contact-form" method="post" action="#">
+                  <p>Address in South Korea</p>
+                  <p>Room 828 (HCI Lab), AI building, Sejong University</p>
+                  <p>서울특별시 광진구 군자동 98 세종대학교 AI센터 828호</p>
 
-                    <div class="messages"></div>
+<!--                  <form id="contact-form" method="post" action="#">-->
 
-                    <div class="controls">
-                      <div class="form-group">
-                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
-                          <div class="form-control-border"></div>
-                          <i class="form-control-icon fa fa-user"></i>
-                          <div class="help-block with-errors"></div>
-                      </div>
+<!--                    <div class="messages"></div>-->
 
-                      <div class="form-group">
-                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
-                          <div class="form-control-border"></div>
-                          <i class="form-control-icon fa fa-envelope"></i>
-                          <div class="help-block with-errors"></div>
-                      </div>
+<!--                    <div class="controls">-->
+<!--                      <div class="form-group">-->
+<!--                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">-->
+<!--                          <div class="form-control-border"></div>-->
+<!--                          <i class="form-control-icon fa fa-user"></i>-->
+<!--                          <div class="help-block with-errors"></div>-->
+<!--                      </div>-->
 
-                      <div class="form-group">
-                          <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please, leave me a message."></textarea>
-                          <div class="form-control-border"></div>
-                          <i class="form-control-icon fa fa-comment"></i>
-                          <div class="help-block with-errors"></div>
-                      </div>
-                      
-                      <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-callback="correctCaptcha"></div>
+<!--                      <div class="form-group">-->
+<!--                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">-->
+<!--                          <div class="form-control-border"></div>-->
+<!--                          <i class="form-control-icon fa fa-envelope"></i>-->
+<!--                          <div class="help-block with-errors"></div>-->
+<!--                      </div>-->
 
-                      <input type="submit" class="button btn-send" value="Send message">
-                    </div>
-                  </form>
+<!--                      <div class="form-group">-->
+<!--                          <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please, leave me a message."></textarea>-->
+<!--                          <div class="form-control-border"></div>-->
+<!--                          <i class="form-control-icon fa fa-comment"></i>-->
+<!--                          <div class="help-block with-errors"></div>-->
+<!--                      </div>-->
+<!--                      -->
+<!--                      <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-callback="correctCaptcha"></div>-->
+
+<!--                      <input type="submit" class="button btn-send" value="Send message">-->
+<!--                    </div>-->
+<!--                  </form>-->
                 </div>
               </div>
             </section>

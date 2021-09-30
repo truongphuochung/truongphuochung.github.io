@@ -1,0 +1,34 @@
+.owl-carousel .service-block a {
+    display: inline-block;
+}
+.general-info p{
+    text-align: justify;
+}
+.service-block .service-title{
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.my-photo img{
+    width: 100%;
+    height: auto;
+}
+.subpage-block ol{
+    text-align: justify;
+}
+.subpage-block ol li{
+    position: relative;
+    line-height: 180%; /*or whatever height you like*/
+    margin-left: 1.2em;
+    font-size: 13pt;
+    color: #1A5276;
+}
+
+.te-primary span{
+    font-size: 100%;
+}
+
+.te-primary h5{
+    font-size: 100%;
+}
