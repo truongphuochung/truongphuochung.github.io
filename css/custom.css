@@ -3,6 +3,7 @@
 }
 .general-info p{
     text-align: justify;
+    font-size: 13pt;
 }
 .service-block .service-title{
     font-weight: 700;
@@ -17,7 +18,7 @@
 .subpage-block ol{
     text-align: justify;
 }
-.subpage-block ol li{
+.subpage-block ol{
     position: relative;
     line-height: 180%; /*or whatever height you like*/
     margin-left: 1.2em;
@@ -31,4 +32,10 @@
 
 .te-primary h5{
     font-size: 100%;
+}
+
+.block-title ol ul{
+    position: relative;
+    line-height: 180%; /*or whatever height you like*/
+    margin-left: 1em;
 }
