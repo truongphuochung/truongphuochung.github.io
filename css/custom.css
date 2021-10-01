@@ -51,3 +51,7 @@
     font-family: Oswald,Helvetica,sans-serif;
     font-size: 90%;
 }
+
+.subpage-block span{
+    text-align: justify;
+}
