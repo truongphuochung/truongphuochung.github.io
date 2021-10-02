@@ -36,7 +36,6 @@
 .block-title ol ul{
     position: relative;
     line-height: 180%; /*or whatever height you like*/
-    margin-left: 1em;
 }
 
 .block-title span{
@@ -48,9 +47,13 @@
 
 .block-title p{
     font-family: Oswald,Helvetica,sans-serif;
-    font-size: 90%;
+    font-size: 100%;
 }
 
 .subpage-block span{
     text-align: justify;
+}
+
+.te-primary span{
+    font-size: 95%;
 }
